@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.Gallary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.PictureCard{
+  width: 300px;
+  height: auto;
+  margin: 1%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.imageQuote{
+  width: 90%;
+  margin: 4.5%;
+  border-radius: 10px;
+  /* border: 2px solid green; */
+}
+.LikeDelete{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+}
+
+.formdata{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin-top:10px;
+}
+.likeDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.likeDiv:hover{
+  background-color: red;
+} */
