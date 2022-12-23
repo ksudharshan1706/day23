@@ -101,6 +101,12 @@ function App() {
             <AddPicture instagram={instagram} setinstagram={setinstagram} />
           }
         />
+        {/* <Route
+          path="/Removepic/:id"
+          element={
+            <Removepic instagram={instagram} setinstagram={setinstagram} />
+          }
+        /> */}
       </Routes>
     </div>
   );
@@ -143,6 +149,7 @@ function EditPicture({ instagram, setinstagram }) {
         variant="outlined"
         // value={data.picture}
       />
+      <br></br>
       <TextField
         id="outlined-basic"
         label="Name"
@@ -150,6 +157,7 @@ function EditPicture({ instagram, setinstagram }) {
         // value={data.name}
         onKeyDown={(e) => setname(e.target.value)}
       />
+      <br></br>
       <TextField
         onKeyDown={(e) => setlikes(e.target.value)}
         id="outlined-basic"
@@ -157,6 +165,7 @@ function EditPicture({ instagram, setinstagram }) {
         variant="outlined"
         // value={data.likes}
       />
+      <br></br>
       <TextField
         onKeyDown={(e) => setquote(e.target.value)}
         id="outlined-basic"
@@ -164,6 +173,7 @@ function EditPicture({ instagram, setinstagram }) {
         variant="outlined"
         // value={data.quote}
       />
+      <br></br>
       {/* {name} */}
       {/* {console.log(newPicture)} */}
       <Button
@@ -174,10 +184,11 @@ function EditPicture({ instagram, setinstagram }) {
         Submit
       </Button>
       <br></br>
-      <label>{data.name} </label>
+      <label>NAME: {data.name} </label>
       <br></br>
-      <label>{data.likes} </label>
-      <label>{data.quote} </label>
+      <label>LIKES:{data.likes} </label>
+      <br></br>
+      <label>QUOTE: {data.quote} </label>
     </form>
   );
   // const navigate = useNavigate();

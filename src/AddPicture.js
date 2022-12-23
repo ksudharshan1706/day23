@@ -27,24 +27,28 @@ export function AddPicture({ instagram, setinstagram }) {
         label="Picture"
         variant="outlined"
       />
+      <br></br>
       <TextField
         onKeyDown={(e) => setname(e.target.value)}
         id="outlined-basic"
         label="Name"
         variant="outlined"
       />
+      <br></br>
       <TextField
         onKeyDown={(e) => setlikes(e.target.value)}
         id="outlined-basic"
         label="likes"
         variant="outlined"
       />
+      <br></br>
       <TextField
         onKeyDown={(e) => setquote(e.target.value)}
         id="outlined-basic"
         label="Quote"
         variant="outlined"
       />
+      <br></br>
       {/* {name} */}
       {/* {console.log(newPicture)} */}
       <Button
