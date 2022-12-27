@@ -22,28 +22,28 @@ export function AddPicture({ instagram, setinstagram }) {
   return (
     <form className="formdata">
       <TextField
-        onKeyDown={(e) => setpicture(e.target.value)}
+        onKeyUp={(e) => setpicture(e.target.value)}
         id="outlined-basic"
         label="Picture"
         variant="outlined"
       />
       <br></br>
       <TextField
-        onKeyDown={(e) => setname(e.target.value)}
+        onKeyUp={(e) => setname(e.target.value)}
         id="outlined-basic"
         label="Name"
         variant="outlined"
       />
       <br></br>
       <TextField
-        onKeyDown={(e) => setlikes(e.target.value)}
+        onKeyUp={(e) => setlikes(e.target.value)}
         id="outlined-basic"
         label="likes"
         variant="outlined"
       />
       <br></br>
       <TextField
-        onKeyDown={(e) => setquote(e.target.value)}
+        onKeyUp={(e) => setquote(e.target.value)}
         id="outlined-basic"
         label="Quote"
         variant="outlined"
