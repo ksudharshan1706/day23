@@ -3,7 +3,6 @@ import { AddPicture } from "./AddPicture";
 export function ImageCreate({ instagram, setinstagram }) {
   return (
     <div>
-      {/* <AddPicture instagram={instagram} setinstagram={setinstagram} /> */}
       <div className="Gallary">
         {instagram.map((data, index) => {
           return (

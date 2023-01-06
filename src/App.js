@@ -120,6 +120,7 @@ function EditPicture({ instagram, setinstagram }) {
   let [picture, setpicture] = useState(data.picture);
   let [likes, setlikes] = useState(data.likes);
   let [quote, setquote] = useState(data.quote);
+
   const EditPicture = {
     name,
     picture,
